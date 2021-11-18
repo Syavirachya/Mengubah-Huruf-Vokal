@@ -1,0 +1,83 @@
+<html>
+    <head>
+   
+        <title>Hitung Jumlah Huruf, Kata, Vokal</title>
+        <script src="javascript.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    </head>
+    <style>
+        body{
+            margin: 0 auto;
+  background-color: #8dd8f8;}
+
+nav{
+    position: inherit;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    background-color: #f2f7f6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: double;
+    border-color: #1a739e;;
+   
+    
+}
+header{
+  background-color: #2452a3;
+  margin: auto;
+  padding: 15px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+h2{
+  font-family: andalus;
+  font-style: italic;
+}
+
+label{
+    font-size: 9px;
+    
+}
+
+
+    </style>
+    <body>
+        <nav>
+            <header>
+                <h2>SILAHKAN MASUKAN KALIMAT DIBAWAH INI</h2>
+            </header>
+        <form name="wordcount" class="form">
+
+        <p><textarea cols=50 row=20 id="input_user" name="input_user" style="margin-left: 30px;"></textarea></p>
+        <p>
+            <input type="radio" id="rd_fibonannci" name="rd_pilih" onclick="javascript()" style="margin-left: 20px;">
+            <label>Ubah Huruf Vokal ----> Bilangan Fibonannci</label>
+            <textarea id="output_fibonannci" name="output_fibonannci" ></textarea>
+        </p>
+        <p>
+            <input type="radio" id="rd_ganjil" name="rd_pilih" onclick="javascript()" style="margin-left: 20px;">
+            <label>Ubah Huruf Vokal ----> Bilangan Ganjil</label>
+            <textarea id="output_ganjil" name="output_ganjil" ></textarea>
+        </p>
+        <p>
+            <input type="radio" id="rd_genap" name="rd_pilih" onclick="javascript()" style="margin-left: 20px;">
+            <label>Ubah Huruf Vokal ----> Bilangan Genap</label>
+            <textarea  id="output_genap" name="output_genap" ></textarea>
+        </p>
+        <p>
+            <input type="radio" id="rd_charnum" name="rd_pilih" onclick="javascript()" style="margin-left: 20px;">
+            <label>Ubah Huruf Vokal ----> Angka Huruf</label>
+            <textarea  id="output_charnum" name="output_charnum" ></textarea>
+        </p>
+
+        
+    </form>
+        </nav>
+    </body>
+</html>
